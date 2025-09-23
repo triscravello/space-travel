@@ -1,0 +1,48 @@
+.spacecrafts-page {
+    padding: 2rem;
+}
+
+.spacecrafts-page__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.spacecrafts-page__title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #66fcf1;
+}
+
+.spacecrafts-page__new-button {
+    background-color: #1f2833;
+    color: #66fcf1;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.spacecrafts-page__new-button:hover {
+    background-color: #45a29e;
+    color: #0b0c10;
+}
+
+.spacecrafts-page__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.spacecrafts-page__empty {
+    font-style: italic;
+    color: #c5c6c7;
+}
+
+.spacecrafts-page__footer {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}

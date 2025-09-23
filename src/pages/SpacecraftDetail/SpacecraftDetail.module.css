@@ -1,0 +1,32 @@
+.spacecraft-detail {
+    padding: 2rem;
+}
+
+.spacecraft-detail__title {
+    font-size: 2rem;
+    color: #66fcf1;
+    margin-bottom: 0.5rem;
+}
+
+.spacecraft-detail__desc {
+    color: #c5c6c7;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.spacecraft-detail__info {
+    font-size: 0.95rem;
+    color: #a9a9a9;
+    margin-bottom: 0.5rem;
+}
+
+.spacecraft-detail__actions {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.spacecraft-detail__error {
+    padding: 2rem;
+    color: red;
+}

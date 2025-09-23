@@ -1,0 +1,40 @@
+.planet-card {
+    background-color: #0b0c10;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #1f2833;
+    margin-bottom: 1.5rem;
+}
+
+.planet-card__title {
+    font-size: 1.6rem;
+    color: #66fcf1;
+    margin-bottom: 1rem;
+}
+
+.planet-card__empty {
+    color: #c5c6c7;
+    font-size: italic;
+
+}
+
+.planet-card__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spacecraft-entry {
+    margin-bottom: 1rem;
+}
+
+.spacecraft-entry__info {
+    color: #c5c6c7;
+    margin-bottom: 0.5rem;
+}
+
+.spacecraft-entry__dispatch {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}

@@ -1,0 +1,71 @@
+.construct-page {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.construct-page__title {
+    font-size: 2rem;
+    color: #66fcf1;
+    margin-bottom: 2rem;
+}
+
+.construct-form__field {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.construct-form__field label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #c5c6c7;
+}
+
+.construct-form__field input, 
+.construct-form__field textarea {
+    padding: 0.5rem;
+    border: 1px solid #45a29e;
+    border-radius: 4px;
+    background-color: #1f2833;
+    color: #fff;
+}
+
+.construct-form__field textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.construct-form__error { 
+    color: #c3073f;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+.construct-form__actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.construct-form__actions button {
+    background-color: #66fcf1;
+    color: #0b0c10;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.construct-form__actions button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.construct-form__cancel {
+    padding: 0.5rem 1rem;
+    color: #c5c6c7;
+    text-decoration: none;
+    align-self: center;
+}

@@ -1,0 +1,13 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #0b0c10;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app__main {
+    flex: 1;
+    padding: 2rem;
+}
