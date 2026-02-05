@@ -23,17 +23,67 @@ This React project simulates a real-world single-page application using a mock A
 - **Context API** - For global state mangagement (if used)
 
 ## Folder Structure
-src/
-├── components/ # Reusable UI components (with CSS)
-├── context/ # React Context providers for global state
-├── pages/ # Route-based page components
-├── routes/ # Routing configuration
-├── services/ # API service layer
-│ ├── SpaceTravelMockApi.js # (Do not edit)
-│ └── SpaceTravelApi.js # Wrapper for API interaction
-├── App.jsx # Main layout and route shell
-├── main.jsx # App entry point
-└── index.css # Global styles
+```
+├── 📜 README.md
+├── 📄 index.html
+├── 🗂️ package-lock.json
+├── 🗂️ package.json
+├── 📁 src
+│ ├── 🟦 App.jsx
+│ ├── 🎨 App.module.css
+│ ├── 📁 components
+│ │ ├── 📁 Button
+│ │ │ ├── 🟦 Button.jsx
+│ │ │ ├── 🎨 Button.module.css
+│ │ ├── 📁 DispatchControl
+│ │ │ ├── 🟦 DispatchControl.jsx
+│ │ │ ├── 🎨 DispatchControl.module.css
+│ │ ├── 📁 Footer
+│ │ │ ├── 🟦 Footer.jsx
+│ │ │ ├── 🎨 Footer.module.css
+│ │ ├── 📁 Header
+│ │ │ ├── 🟦 Header.jsx
+│ │ │ ├── 🎨 Header.module.css
+│ │ ├── 📁 LoadingSpinner
+│ │ │ ├── 🟦 LoadingSpinner.jsx
+│ │ │ ├── 🎨 LoadingSpinner.module.css
+│ │ ├── 📁 PlanetCard
+│ │ │ ├── 🟦 PlanetCard.jsx
+│ │ │ ├── 🎨 PlanetCard.module.css
+│ │ ├── 📁 SpacecraftCard
+│ │ │ ├── 🟦 SpacecraftCard.jsx
+│ │ │ ├── 🎨 SpacecraftCard.module.css
+│ ├── 📁 context
+│ │ ├── 🟦 SpaceTravelContext.jsx
+│ ├── 🎨 index.css
+│ ├── 🟦 main.jsx
+│ ├── 📁 pages
+│ │ ├── 📁 ConstructSpacecraft
+│ │ │ ├── 🟦 ConstructSpacecraft.jsx
+│ │ │ ├── 🎨 ConstructSpacecraft.module.css
+│ │ ├── 📁 Home
+│ │ │ ├── 🟦 Home.jsx
+│ │ │ ├── 🎨 Home.module.css
+│ │ ├── 📁 NotFound
+│ │ │ ├── 🟦 NotFoundPage.jsx
+│ │ │ ├── 🎨 NotFoundPage.module.css
+│ │ ├── 📁 Planets
+│ │ │ ├── 🟦 Planets.jsx
+│ │ │ ├── 🎨 Planets.module.css
+│ │ ├── 📁 SpacecraftDetail
+│ │ │ ├── 🟦 SpacecraftDetail.jsx
+│ │ │ ├── 🎨 SpacecraftDetail.module.css
+│ │ ├── 📁 Spacecrafts
+│ │ │ ├── 🟦 Spacecrafts.jsx
+│ │ │ ├── 🎨 Spacecrafts.module.css
+│ ├── 📁 routes
+│ │ ├── 🟦 AppRoutes.jsx
+│ ├── 📁 services
+│ │ ├── 🟨 SpaceTravelApi.js
+│ │ ├── 🟨 SpaceTravelMockApi.js
+├── 🟨 vite.config.js
+
+```
 
 ## Installation & Setup
 **1. Clone the respository**
