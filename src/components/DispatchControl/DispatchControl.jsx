@@ -12,7 +12,7 @@ export default function DispatchControl({
     const [selectedPlanetId, setSelectedPlanetId] = useState("");
 
     const handleChange = (e) => {
-        setSelectedPlanetId(e.target.value);
+        setSelectedPlanetId(Number(e.target.value));
     };
 
     const handleClick = () => {
@@ -32,6 +32,7 @@ export default function DispatchControl({
             <select 
                 value={selectedPlanetId} 
                 onChange={handleChange} 
+                disabled={dispatching}
                 className={styles["dispatch-control__select"]}
             >
                 <option value="">Select destination</option>
@@ -44,7 +45,7 @@ export default function DispatchControl({
                     ))}
             </select>
             <Button 
-                onClick={handleChange} 
+                onClick={handleClick} 
                 disabled={dispatching} 
                 variant="primary"
             >
