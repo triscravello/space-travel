@@ -48,7 +48,7 @@ export default function SpacecraftsPage() {
             ) : (
                 <div className={styles['spacecrafts-page__list']}>
                     {spacecrafts.length === 0 ? (
-                        <p className={styles['spacecrafts-page__empty']}>No Spacecraft Available.</p>
+                        <p className={styles['spacecrafts-page__empty']}>No Spacecraft available</p>
                     ): (
                         spacecrafts.map((spacecraft) => (
                             <SpacecraftCard 
