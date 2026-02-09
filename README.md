@@ -31,6 +31,7 @@ This React project simulates a real-world single-page application using a mock A
 ├── 📁 src
 │ ├── 🟦 App.jsx
 │ ├── 🎨 App.module.css
+│ ├── 🟨 App.test.js
 │ ├── 📁 components
 │ │ ├── 📁 Button
 │ │ │ ├── 🟦 Button.jsx
@@ -38,6 +39,7 @@ This React project simulates a real-world single-page application using a mock A
 │ │ ├── 📁 DispatchControl
 │ │ │ ├── 🟦 DispatchControl.jsx
 │ │ │ ├── 🎨 DispatchControl.module.css
+│ │ │ ├── 🟦 DispatchControl.test.jsx
 │ │ ├── 📁 Footer
 │ │ │ ├── 🟦 Footer.jsx
 │ │ │ ├── 🎨 Footer.module.css
@@ -53,20 +55,25 @@ This React project simulates a real-world single-page application using a mock A
 │ │ ├── 📁 SpacecraftCard
 │ │ │ ├── 🟦 SpacecraftCard.jsx
 │ │ │ ├── 🎨 SpacecraftCard.module.css
+│ │ │ ├── 🟦 SpacecraftCard.test.jsx
 │ ├── 📁 context
 │ │ ├── 🟦 SpaceTravelContext.jsx
+│ │ ├── 📁 __tests__
+│ │ │ ├── 🟦 SpaceTravelContext.test.jsx
 │ ├── 🎨 index.css
 │ ├── 🟦 main.jsx
 │ ├── 📁 pages
 │ │ ├── 📁 ConstructSpacecraft
 │ │ │ ├── 🟦 ConstructSpacecraft.jsx
 │ │ │ ├── 🎨 ConstructSpacecraft.module.css
+│ │ │ ├── 🟨 ConstructSpacecraft.test.js
 │ │ ├── 📁 Home
 │ │ │ ├── 🟦 Home.jsx
 │ │ │ ├── 🎨 Home.module.css
 │ │ ├── 📁 NotFound
 │ │ │ ├── 🟦 NotFoundPage.jsx
 │ │ │ ├── 🎨 NotFoundPage.module.css
+│ │ │ ├── 🟦 NotFoundPage.test.jsx
 │ │ ├── 📁 Planets
 │ │ │ ├── 🟦 Planets.jsx
 │ │ │ ├── 🎨 Planets.module.css
@@ -76,21 +83,35 @@ This React project simulates a real-world single-page application using a mock A
 │ │ ├── 📁 Spacecrafts
 │ │ │ ├── 🟦 Spacecrafts.jsx
 │ │ │ ├── 🎨 Spacecrafts.module.css
+│ │ │ ├── 🟦 Spacecrafts.test.jsx
 │ ├── 📁 routes
 │ │ ├── 🟦 AppRoutes.jsx
 │ ├── 📁 services
 │ │ ├── 🟨 SpaceTravelApi.js
 │ │ ├── 🟨 SpaceTravelMockApi.js
+│ │ ├── 📁 __tests__
+│ │ │ ├── 🟨 SpaceTravelMockApi.test.js
+│ ├── 🟨 setupTests.js
 ├── 🟨 vite.config.js
 
 ```
 
 ## Installation & Setup
 **1. Clone the respository**
+```bash
+git clone https://github.com/triscravello/space-travel.git
+cd space-travel
+```
 
 **2. Install dependencies**
+``` bash 
+npm install
+```
 
 **3. Start the development server**
+``` bash 
+npm run dev
+```
 
 **4. Open in browser**
 
