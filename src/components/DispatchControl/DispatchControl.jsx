@@ -10,6 +10,7 @@ export default function DispatchControl({
     dispatching = false
 }) {
     const [selectedPlanetId, setSelectedPlanetId] = useState("");
+    const isInvalidSelection = !selectedPlanetId || selectedPlanetId === currentPlanetId;
 
     const handleChange = (e) => {
         setSelectedPlanetId(Number(e.target.value));
@@ -46,7 +47,7 @@ export default function DispatchControl({
             </select>
             <Button 
                 onClick={handleClick} 
-                disabled={dispatching} 
+                disabled={dispatching || isInvalidSelection} 
                 variant="primary"
             >
                 {dispatching ? "Dispatching..." : "Dispatch"}
